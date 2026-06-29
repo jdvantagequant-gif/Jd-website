@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="J&amp;D Vantage Quant - Indian market algorithmic trading technology. Custom algo strategies for NSE, BSE, and MCX. SEBI compliant.">
+    <meta name="keywords" content="algorithmic trading, algo trading India, NSE, BSE, MCX, quantitative trading, SEBI, Indian stock market">
+    <meta name="author" content="J&amp;D Vantage Quant">
+    <meta name="theme-color" content="#000000">
+    <meta name="color-scheme" content="dark">
+    <link rel="canonical" href="https://jdvantagequant.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jdvantagequant.com/">
+    <meta property="og:title" content="J&amp;D Vantage Quant - Indian Market Algo Trading">
+    <meta property="og:description" content="Algorithmic trading technology for Indian markets. Custom strategies for NSE, BSE, MCX.">
+    <meta property="og:site_name" content="J&amp;D Vantage Quant">
+    <meta property="og:locale" content="en_IN">
+    <title>J&amp;D Vantage Quant - Indian Market Algo Trading</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/variables.css?v=29">
+    <link rel="stylesheet" href="css/base.css?v=29">
+    <link rel="stylesheet" href="css/animations.css?v=29">
+    <link rel="stylesheet" href="css/layout.css?v=29">
+    <link rel="stylesheet" href="css/pages.css?v=29">
+    <link rel="stylesheet" href="css/responsive.css?v=29">
+    <link rel="stylesheet" href="css/olymp.css?v=34">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "J&D Vantage Quant",
+            "url": "https://jdvantagequant.com",
+            "description": "Indian market algorithmic trading technology firm.",
+            "email": "jdvantagequant@gmail.com",
+            "telephone": "+917575858430",
+            "areaServed": "India"
+        }
+    </script>
+</head>
+
+<body>
+    <div class="splash-screen" id="splash-screen">
+        <div class="splash-content">
+            <div class="splash-logo">
+                <img src="logo.svg" alt="J&amp;D Vantage Quant" width="80" height="80">
+            </div>
+            <div class="">
+                <div class="splash-signature">J&amp;D Vantage Quant</div>
+            </div>
+            <div class="splash-tagline">Algorithmic Trading Technology</div>
+            <div class="splash-line"></div>
+        </div>
+    </div>
+
+    <a href="#app-content" class="skip-to-content" id="skip-link">Skip to content</a>
+    <div class="op-site">
+        <header class="op-nav">
+            <div class="op-nav-inner">
+                <div class="op-brand" onclick="navigateTo('home')" title="Home">
+                    <span class="op-brand-logo"><span class="op-brand-mark">J&amp;D</span></span>
+                    <span class="op-brand-text">
+                        <span class="op-brand-name">J&amp;D Vantage Quant</span>
+                    <span class="op-brand-sub">Algorithmic Trading</span>
+                    </span>
+                </div>
+                <nav class="op-nav-links">
+                    <span class="op-nav-indicator" id="op-nav-indicator" aria-hidden="true"></span>
+                    <button class="op-nav-link active" data-page="home" onclick="navigateTo('home')">Home</button>
+                    <button class="op-nav-link" data-page="about" onclick="navigateTo('about')">About</button>
+                    <button class="op-nav-link" data-page="services" onclick="navigateTo('services')">Services</button>
+                    <button class="op-nav-link" data-page="brochure" onclick="navigateTo('brochure')">Brochure</button>
+                    <button class="op-nav-link" data-page="legal" onclick="navigateTo('legal')">Legal</button>
+                </nav>
+                <div class="op-nav-right">
+                    <span class="op-nav-divider"></span>
+                    <button class="op-btn op-btn-ghost" onclick="navigateTo('contact')">Contact</button>
+                    <button class="op-btn op-btn-primary" onclick="navigateTo('services')">Get Started</button>
+                    <button class="op-nav-burger" onclick="toggleMenu()" aria-label="Open menu">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="op-drawer-backdrop" id="op-drawer-backdrop" onclick="closeMenu()"></div>
+        <aside class="op-drawer" id="op-drawer">
+            <div class="op-drawer-head">
+                <div class="op-brand"><span class="op-brand-logo"><span class="op-brand-mark">J&amp;D</span></span><span class="op-brand-name">J&amp;D Vantage</span></div>
+                <button class="op-drawer-close" onclick="closeMenu()" aria-label="Close menu">&times;</button>
+            </div>
+            <button class="op-nav-link" data-page="home" onclick="navigateTo('home')">Home</button>
+            <button class="op-nav-link" data-page="about" onclick="navigateTo('about')">About</button>
+            <button class="op-nav-link" data-page="services" onclick="navigateTo('services')">Services</button>
+            <button class="op-nav-link" data-page="brochure" onclick="navigateTo('brochure')">Brochure</button>
+            <button class="op-nav-link" data-page="legal" onclick="navigateTo('legal')">Legal</button>
+            <button class="op-nav-link" data-page="contact" onclick="navigateTo('contact')">Contact</button>
+            <button class="op-btn op-btn-primary" onclick="navigateTo('services')">Get Started</button>
+        </aside>
+
+        <div class="op-ticker" aria-hidden="true">
+            <div class="ticker-track" id="ticker-track"></div>
+        </div>
+
+        <main class="op-main" id="app-content" role="main" aria-live="polite"></main>
+
+        <footer class="op-footer">
+            <div class="op-container">
+                <div class="op-footer-grid">
+                    <div class="op-footer-brand">
+                        <div class="op-brand" onclick="navigateTo('home')">
+                            <span class="op-brand-logo"><span class="op-brand-mark">J&amp;D</span></span>
+                            <span class="op-brand-name">J&amp;D Vantage Quant</span>
+                        </div>
+                        <p>Precision-engineered algorithmic trading technology built exclusively for Indian markets &mdash; NSE, BSE &amp; MCX. Where mathematics meets market opportunity.</p>
+                    </div>
+                    <div class="op-foot-col">
+                        <h5>Company</h5>
+                        <button onclick="navigateTo('about')">About Us</button>
+                        <button onclick="navigateTo('services')">Services</button>
+                        <button onclick="navigateTo('brochure')">Brochure</button>
+                        <button onclick="navigateTo('contact')">Contact</button>
+                    </div>
+                    <div class="op-foot-col">
+                        <h5>Legal</h5>
+                        <button onclick="navigateTo('legal')">Legal &amp; Compliance</button>
+                        <button onclick="navigateTo('disclaimers')">Disclaimers</button>
+                        <button onclick="navigateTo('terms')">Terms of Service</button>
+                        <button onclick="navigateTo('privacy')">Privacy Policy</button>
+                    </div>
+                    <div class="op-foot-col">
+                        <h5>Reach Us</h5>
+                        <a href="mailto:jdvantagequant@gmail.com">jdvantagequant@gmail.com</a>
+                        <a href="tel:+917575858430">+91 75758 58430</a>
+                        <button onclick="navigateTo('contact')">Send a Message</button>
+                    </div>
+                </div>
+                <div class="op-footer-bottom">
+                    <p>&copy; 2024-2026 J&amp;D Vantage Quant. All rights reserved.</p>
+                    <p>SEBI-aware &middot; India-first &middot; Compliance-led</p>
+                </div>
+                <p class="op-footer-disclaimer">Disclaimer: Trading in securities and commodities involves substantial risk and may not be suitable for all investors. Past performance is not indicative of future results. Index values and figures shown across this website are illustrative
+                    only and do not represent live market data or guaranteed returns. Content is for informational purposes only and does not constitute investment advice.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="pages/home.js?v=28"></script>
+    <script src="pages/services.js?v=25"></script>
+    <script src="pages/about-contact-how.js?v=25"></script>
+    <script src="pages/legal.js?v=25"></script>
+    <script src="pages/referral-brochure.js?v=25"></script>
+    <script src="js/app.js?v=26"></script>
+    <script>
+        registerPage('home', getHomePage);
+        registerPage('about', getAboutPage);
+        registerPage('services', getServicesPage);
+        registerPage('contact', getContactPage);
+        registerPage('legal', getLegalPage);
+        registerPage('disclaimers', getDisclaimersPage);
+        registerPage('terms', getTermsPage);
+        registerPage('privacy', getPrivacyPage);
+        registerPage('refund', getRefundPage);
+        registerPage('brochure', getBrochurePage);
+        initApp();
+    </script>
+</body>
+
+</html>

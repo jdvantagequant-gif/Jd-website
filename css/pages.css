@@ -1,0 +1,4 @@
+.service-item { display: flex; align-items: flex-start; gap: var(--space-4); }
+.service-item h4 { font-size: var(--text-base); font-weight: var(--font-semibold); margin-bottom: var(--space-1); }
+.service-item p { font-size: var(--text-sm); color: var(--text-secondary); line-height: 1.6; }
+.service-item ul { font-size: var(--text-xs); color: var(--text-muted); padding-left: var(--space-5); margin-top: var(--space-2); line-height: 1.8; }
