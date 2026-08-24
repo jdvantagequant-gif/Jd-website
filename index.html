@@ -1,173 +1,429 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="J&amp;D Vantage Quant - Indian market algorithmic trading technology. Custom algo strategies for NSE, BSE, and MCX. SEBI compliant.">
-    <meta name="keywords" content="algorithmic trading, algo trading India, NSE, BSE, MCX, quantitative trading, SEBI, Indian stock market">
-    <meta name="author" content="J&amp;D Vantage Quant">
-    <meta name="theme-color" content="#000000">
-    <meta name="color-scheme" content="dark">
-    <link rel="canonical" href="https://jdvantagequant.com/">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://jdvantagequant.com/">
-    <meta property="og:title" content="J&amp;D Vantage Quant - Indian Market Algo Trading">
-    <meta property="og:description" content="Algorithmic trading technology for Indian markets. Custom strategies for NSE, BSE, MCX.">
-    <meta property="og:site_name" content="J&amp;D Vantage Quant">
-    <meta property="og:locale" content="en_IN">
-    <title>J&amp;D Vantage Quant - Indian Market Algo Trading</title>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/variables.css?v=29">
-    <link rel="stylesheet" href="css/base.css?v=29">
-    <link rel="stylesheet" href="css/animations.css?v=29">
-    <link rel="stylesheet" href="css/layout.css?v=29">
-    <link rel="stylesheet" href="css/pages.css?v=29">
-    <link rel="stylesheet" href="css/responsive.css?v=29">
-    <link rel="stylesheet" href="css/olymp.css?v=34">
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "J&D Vantage Quant",
-            "url": "https://jdvantagequant.com",
-            "description": "Indian market algorithmic trading technology firm.",
-            "email": "jdvantagequant@gmail.com",
-            "telephone": "+917575858430",
-            "areaServed": "India"
-        }
-    </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>J&amp;D Vantage Quant — Algorithmic Trading Technology for Indian Markets</title>
+<meta name="description" content="Data-driven algo trading systems engineered for NSE, BSE and MCX. Custom strategies, quantitative research, automated risk control — with nine years of backtested performance published in full.">
+<meta name="keywords" content="algorithmic trading, algo trading India, NSE, BSE, MCX, quantitative trading, backtesting, SEBI, Indian stock market">
+<link rel="canonical" href="https://jdvantagequant.com/">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jdvantagequant.com/">
+<meta property="og:title" content="J&amp;D Vantage Quant — Indian Market Algo Trading">
+<meta property="og:description" content="Algorithmic trading technology for Indian markets. Custom strategies for NSE, BSE, MCX — with the full backtested record published.">
+<meta property="og:site_name" content="J&amp;D Vantage Quant">
+<meta property="og:locale" content="en_IN">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css?v=4">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "J&D Vantage Quant",
+  "url": "https://jdvantagequant.com",
+  "logo": "https://jdvantagequant.com/favicon.svg",
+  "description": "Indian market algorithmic trading technology firm.",
+  "email": "jdvantagequant@gmail.com",
+  "telephone": "+917575858430",
+  "areaServed": "India"
+}
+</script>
 </head>
-
 <body>
-    <div class="splash-screen" id="splash-screen">
-        <div class="splash-content">
-            <div class="splash-logo">
-                <img src="logo.svg" alt="J&amp;D Vantage Quant" width="80" height="80">
-            </div>
-            <div class="">
-                <div class="splash-signature">J&amp;D Vantage Quant</div>
-            </div>
-            <div class="splash-tagline">Algorithmic Trading Technology</div>
-            <div class="splash-line"></div>
+
+<nav class="nav">
+  <div class="nav-in">
+    <a class="nav-brand" href="/"><b>J&amp;D<i> Vantage</i></b></a>
+    <div class="nav-links">
+      <div class="nav-item">
+        <a href="/performance/">Performance<svg class="chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="nav-menu">
+          <a href="/performance/#performance"><b>Equity Curve</b><span>Daily equity and drawdown</span></a>
+          <a href="/performance/#yearly"><b>Yearly</b><span>Calendar-year results</span></a>
+          <a href="/performance/#monthly"><b>Monthly</b><span>Month-by-month heat grid</span></a>
+          <a href="/performance/#stats"><b>Statistics</b><span>Risk and trade metrics</span></a>
+          <a href="/performance/#costs"><b>Costs</b><span>Full charge breakdown</span></a>
         </div>
+      </div>
+      <a href="/report/">Trade Report</a>
+      <a href="/services/">Services</a>
+      <div class="nav-item">
+        <a href="/about/">Company<svg class="chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="nav-menu">
+          <a href="/about/"><b>About</b><span>Mission, values and the team</span></a>
+          <a href="/brochure/"><b>Brochure</b><span>The firm on one page</span></a>
+          <a href="/legal/"><b>Legal</b><span>Disclaimers, terms and privacy</span></a>
+        </div>
+      </div>
+      <a href="/contact/">Contact</a>
+    </div>
+    <div class="nav-right">
+      <a class="nav-icon" href="tel:+917575858430" aria-label="Call +91 75758 58430" title="+91 75758 58430"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8.1 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2Z"/></svg></a>
+      <a class="nav-icon" href="mailto:jdvantagequant@gmail.com" aria-label="Email jdvantagequant@gmail.com" title="jdvantagequant@gmail.com"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg></a>
+      <a class="nav-cta" href="/contact/">Get Started</a>
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-drawer"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+  <div class="nav-prog" id="nav-prog"></div>
+  <div class="nav-drawer" id="nav-drawer">
+    <div class="wrap">
+      <span class="grp">Pages</span>
+      <a href="/" class="here">Home</a>
+      <a href="/performance/">Performance</a>
+      <a href="/report/">Trade Report</a>
+      <a href="/services/">Services</a>
+      <a href="/about/">About</a>
+      <a href="/brochure/">Brochure</a>
+      <a href="/legal/">Legal</a>
+      <a href="/contact/">Contact</a>
+      <span class="grp">Reach us</span>
+      <a href="tel:+917575858430">+91 75758 58430</a>
+      <a href="mailto:jdvantagequant@gmail.com">jdvantagequant@gmail.com</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-in">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Algorithmic Trading Technology</div>
+        <h1>Trade Indian markets with <span>quant precision</span></h1>
+        <p class="hero-sub">Data-driven algo trading systems engineered exclusively for
+        <b>NSE, BSE &amp; MCX</b>. Where rigorous mathematics meets real market opportunity —
+        built compliance-first, and backed by a performance record we publish in full.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-lg" href="/services/">Get Started →</a>
+          <a class="btn btn-ghost btn-lg" href="/performance/">View Performance</a>
+        </div>
+        <div class="pills">
+          <span class="pill"><svg viewBox="0 0 24 24"><path d="M3 3v18h18M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>Algo Strategies</span>
+          <span class="pill"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>SEBI Compliant</span>
+          <span class="pill"><svg viewBox="0 0 24 24"><path d="M16 18 22 12 16 6M8 6 2 12 8 18"/></svg>Quant Research</span>
+          <span class="pill"><svg viewBox="0 0 24 24"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg>Risk Controls</span>
+        </div>
+      </div>
+      <div>
+        <div class="panel rv" id="hero-panel"></div>
+      </div>
     </div>
 
-    <a href="#app-content" class="skip-to-content" id="skip-link">Skip to content</a>
-    <div class="op-site">
-        <header class="op-nav">
-            <div class="op-nav-inner">
-                <div class="op-brand" onclick="navigateTo('home')" title="Home">
-                    <span class="op-brand-logo"><span class="op-brand-mark">J&amp;D</span></span>
-                    <span class="op-brand-text">
-                        <span class="op-brand-name">J&amp;D Vantage Quant</span>
-                    <span class="op-brand-sub">Algorithmic Trading</span>
-                    </span>
-                </div>
-                <nav class="op-nav-links">
-                    <span class="op-nav-indicator" id="op-nav-indicator" aria-hidden="true"></span>
-                    <button class="op-nav-link active" data-page="home" onclick="navigateTo('home')">Home</button>
-                    <button class="op-nav-link" data-page="about" onclick="navigateTo('about')">About</button>
-                    <button class="op-nav-link" data-page="services" onclick="navigateTo('services')">Services</button>
-                    <button class="op-nav-link" data-page="brochure" onclick="navigateTo('brochure')">Brochure</button>
-                    <button class="op-nav-link" data-page="legal" onclick="navigateTo('legal')">Legal</button>
-                </nav>
-                <div class="op-nav-right">
-                    <span class="op-nav-divider"></span>
-                    <button class="op-btn op-btn-ghost" onclick="navigateTo('contact')">Contact</button>
-                    <button class="op-btn op-btn-primary" onclick="navigateTo('services')">Get Started</button>
-                    <button class="op-nav-burger" onclick="toggleMenu()" aria-label="Open menu">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-                    </button>
-                </div>
-            </div>
-        </header>
+    <div class="kpis kpis-4" id="hero-kpis"></div>
+    <div class="hero-note">Headline figures are backtested, simulated results for the TRIO
+    configuration — not live trading performance. Simulated past performance does not indicate
+    future returns.</div>
+  </div>
+</header>
 
-        <div class="op-drawer-backdrop" id="op-drawer-backdrop" onclick="closeMenu()"></div>
-        <aside class="op-drawer" id="op-drawer">
-            <div class="op-drawer-head">
-                <div class="op-brand"><span class="op-brand-logo"><span class="op-brand-mark">J&amp;D</span></span><span class="op-brand-name">J&amp;D Vantage</span></div>
-                <button class="op-drawer-close" onclick="closeMenu()" aria-label="Close menu">&times;</button>
-            </div>
-            <button class="op-nav-link" data-page="home" onclick="navigateTo('home')">Home</button>
-            <button class="op-nav-link" data-page="about" onclick="navigateTo('about')">About</button>
-            <button class="op-nav-link" data-page="services" onclick="navigateTo('services')">Services</button>
-            <button class="op-nav-link" data-page="brochure" onclick="navigateTo('brochure')">Brochure</button>
-            <button class="op-nav-link" data-page="legal" onclick="navigateTo('legal')">Legal</button>
-            <button class="op-nav-link" data-page="contact" onclick="navigateTo('contact')">Contact</button>
-            <button class="op-btn op-btn-primary" onclick="navigateTo('services')">Get Started</button>
-        </aside>
+<div class="spec">
+  <div class="spec-in">
+    <div class="spec-item"><label>Segment</label><div>NSE Cash Equity</div></div>
+    <div class="spec-item"><label>Style</label><div>Intraday, squared off daily</div></div>
+    <div class="spec-item"><label>Execution</label><div>Symphony XTS · AWS</div></div>
+    <div class="spec-item"><label>Market Data</label><div>Dhan</div></div>
+    <div class="spec-item"><label>Backtest Window</label><div class="num" id="s-period"></div></div>
+    <div class="spec-item"><label>Sessions Tested</label><div class="num" id="s-days"></div></div>
+    <div class="spec-item"><label>Trades Simulated</label><div class="num" id="s-trades"></div></div>
+    <div class="spec-item"><label>Overnight Exposure</label><div>None</div></div>
+  </div>
+</div>
 
-        <div class="op-ticker" aria-hidden="true">
-            <div class="ticker-track" id="ticker-track"></div>
-        </div>
+<main class="wrap">
 
-        <main class="op-main" id="app-content" role="main" aria-live="polite"></main>
+<!-- ============ STATS BAND ============ -->
+<section id="stats">
+  <div class="stats">
+    <div class="stat rv"><div class="n">3</div><div class="l">Exchanges — NSE, BSE &amp; MCX</div></div>
+    <div class="stat rv"><div class="n">10+</div><div class="l">Years of historical backtesting</div></div>
+    <div class="stat rv"><div class="n">24/7</div><div class="l">Systematic market monitoring</div></div>
+    <div class="stat rv"><div class="n">100%</div><div class="l">Compliance-first approach</div></div>
+  </div>
+</section>
 
-        <footer class="op-footer">
-            <div class="op-container">
-                <div class="op-footer-grid">
-                    <div class="op-footer-brand">
-                        <div class="op-brand" onclick="navigateTo('home')">
-                            <span class="op-brand-logo"><span class="op-brand-mark">J&amp;D</span></span>
-                            <span class="op-brand-name">J&amp;D Vantage Quant</span>
-                        </div>
-                        <p>Precision-engineered algorithmic trading technology built exclusively for Indian markets &mdash; NSE, BSE &amp; MCX. Where mathematics meets market opportunity.</p>
-                    </div>
-                    <div class="op-foot-col">
-                        <h5>Company</h5>
-                        <button onclick="navigateTo('about')">About Us</button>
-                        <button onclick="navigateTo('services')">Services</button>
-                        <button onclick="navigateTo('brochure')">Brochure</button>
-                        <button onclick="navigateTo('contact')">Contact</button>
-                    </div>
-                    <div class="op-foot-col">
-                        <h5>Legal</h5>
-                        <button onclick="navigateTo('legal')">Legal &amp; Compliance</button>
-                        <button onclick="navigateTo('disclaimers')">Disclaimers</button>
-                        <button onclick="navigateTo('terms')">Terms of Service</button>
-                        <button onclick="navigateTo('privacy')">Privacy Policy</button>
-                    </div>
-                    <div class="op-foot-col">
-                        <h5>Reach Us</h5>
-                        <a href="mailto:jdvantagequant@gmail.com">jdvantagequant@gmail.com</a>
-                        <a href="tel:+917575858430">+91 75758 58430</a>
-                        <button onclick="navigateTo('contact')">Send a Message</button>
-                    </div>
-                </div>
-                <div class="op-footer-bottom">
-                    <p>&copy; 2024-2026 J&amp;D Vantage Quant. All rights reserved.</p>
-                    <p>SEBI-aware &middot; India-first &middot; Compliance-led</p>
-                </div>
-                <p class="op-footer-disclaimer">Disclaimer: Trading in securities and commodities involves substantial risk and may not be suitable for all investors. Past performance is not indicative of future results. Index values and figures shown across this website are illustrative
-                    only and do not represent live market data or guaranteed returns. Content is for informational purposes only and does not constitute investment advice.</p>
-            </div>
-        </footer>
+<!-- ============ PROGRAMMES ============ -->
+<section id="programmes">
+  <div class="sec-head">
+    <div class="eyebrow">Programmes</div>
+    <h2>One engine, three capital tiers</h2>
+    <p>The same signals, the same allocation and the same leverage across all three. What
+    changes is the capital committed, the risk taken per trade and the execution cost model
+    that capital attracts — which is why the percentage returns differ.</p>
+  </div>
+  <div class="prog-grid" id="prog-grid"></div>
+  <div class="card-row">
+    <div class="note rv"><span class="ic">Note</span><div>Percentages are stated on
+    <b>base capital</b>, not on the compounded balance. Position size is a fixed fraction of
+    the capital committed, so rupee P&amp;L scales with capital while the percentage figures
+    do not.</div></div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section id="why">
+  <div class="sec-head">
+    <div class="eyebrow">Why J&amp;D Vantage</div>
+    <h2>The perfect blend of precision, transparency &amp; trust</h2>
+    <p>Everything we build is designed around the realities of Indian markets and a relentless
+    commitment to honest, risk-aware trading.</p>
+  </div>
+  <div class="feat-grid">
+    <div class="feat rv">
+      <div class="ic"><svg viewBox="0 0 24 24"><path d="M16 18 22 12 16 6M8 6 2 12 8 18"/></svg></div>
+      <h3>India-First Algorithms</h3>
+      <p>Strategies engineered specifically for NSE, BSE &amp; MCX micro-structure, liquidity
+      and trading sessions.</p>
     </div>
-    <script src="pages/home.js?v=28"></script>
-    <script src="pages/services.js?v=25"></script>
-    <script src="pages/about-contact-how.js?v=25"></script>
-    <script src="pages/legal.js?v=25"></script>
-    <script src="pages/referral-brochure.js?v=25"></script>
-    <script src="js/app.js?v=26"></script>
-    <script>
-        registerPage('home', getHomePage);
-        registerPage('about', getAboutPage);
-        registerPage('services', getServicesPage);
-        registerPage('contact', getContactPage);
-        registerPage('legal', getLegalPage);
-        registerPage('disclaimers', getDisclaimersPage);
-        registerPage('terms', getTermsPage);
-        registerPage('privacy', getPrivacyPage);
-        registerPage('refund', getRefundPage);
-        registerPage('brochure', getBrochurePage);
-        initApp();
-    </script>
+    <div class="feat t2 rv">
+      <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 3v18h18M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg></div>
+      <h3>Quantitative Edge</h3>
+      <p>Rigorously backtested models across 10+ years of data, validated before a single
+      rupee is ever risked.</p>
+    </div>
+    <div class="feat t3 rv">
+      <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+      <h3>SEBI-Compliant</h3>
+      <p>Regulatory compliance is a core design principle, not an afterthought — transparency
+      at every step.</p>
+    </div>
+    <div class="feat t4 rv">
+      <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg></div>
+      <h3>Automated Risk Control</h3>
+      <p>Built-in stop-loss, drawdown limits and volatility-adjusted position sizing protect
+      your capital.</p>
+    </div>
+    <div class="feat t5 rv">
+      <div class="ic"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+      <h3>Full Transparency</h3>
+      <p>Complete honesty in methods, assumptions and risk disclosure — you always know how
+      it works.</p>
+    </div>
+    <div class="feat t6 rv">
+      <div class="ic"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></div>
+      <h3>Both Market Sides</h3>
+      <p>Systems that adapt to bullish momentum and bearish reversals alike, with hedging
+      overlays.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOTH SIDES ============ -->
+<section id="both-sides">
+  <div class="split">
+    <div class="split-text">
+      <div class="eyebrow">Market Dynamics</div>
+      <h2>Built for both sides of the market</h2>
+      <p>Our systems do not just chase rallies. They are designed to perform across momentum
+      and reversals, with disciplined risk management throughout.</p>
+      <ul class="checklist">
+        <li><span class="ck"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span><span><b>Bullish strategies</b> — trend-following &amp; momentum capture across equities and indices.</span></li>
+        <li><span class="ck"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span><span><b>Bearish &amp; hedging</b> — risk-controlled shorts and options-based hedging overlays.</span></li>
+        <li><span class="ck"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span><span><b>Volatility-aware sizing</b> — positions scaled to live market conditions.</span></li>
+        <li><span class="ck"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span><span><b>Automated stops</b> — drawdown control that never sleeps.</span></li>
+      </ul>
+    </div>
+    <div class="split-media">
+      <div class="panel rv">
+        <div class="prow">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/></svg></div>
+          <div><div class="t">Bullish Momentum</div><div class="s">Breakout &amp; trend capture</div></div>
+          <div class="m" style="color:var(--brand)">Long</div>
+        </div>
+        <div class="prow">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 7l6 6 4-4 8 8"/></svg></div>
+          <div><div class="t">Bearish Hedging</div><div class="s">Mean-reversion &amp; protection</div></div>
+          <div class="m" style="color:var(--brand)">Short</div>
+        </div>
+        <div class="prow">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 2v20M2 12h20"/></svg></div>
+          <div><div class="t">Neutral / Range</div><div class="s">Options-based income models</div></div>
+          <div class="m" style="color:var(--brand)">Hedged</div>
+        </div>
+        <div class="prow">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div><div class="t">Realised drawdown</div><div class="s">Deepest peak-to-trough, TRIO</div></div>
+          <div class="m neg" id="p-mdd">—</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section id="how">
+  <div class="sec-head">
+    <div class="eyebrow">How it works</div>
+    <h2>Your path to systematic trading</h2>
+    <p>A clear, transparent process from first conversation to a live, monitored strategy.</p>
+  </div>
+  <div class="steps">
+    <div class="step rv"><div class="sn">1</div><h4>Discovery</h4><p>We understand your goals, risk appetite and the markets you want to trade.</p></div>
+    <div class="step rv"><div class="sn">2</div><h4>Strategy Design</h4><p>We engineer and rigorously backtest a quantitative strategy on historical data.</p></div>
+    <div class="step rv"><div class="sn">3</div><h4>Risk Framework</h4><p>Automated stop-loss, sizing and drawdown controls are built in from the start.</p></div>
+    <div class="step rv"><div class="sn">4</div><h4>Deploy &amp; Monitor</h4><p>Your strategy goes live with continuous systematic monitoring and review.</p></div>
+  </div>
+</section>
+
+<!-- ============ COVERAGE ============ -->
+<section id="coverage">
+  <div class="split rev">
+    <div class="split-text">
+      <div class="eyebrow">Coverage</div>
+      <h2>One platform, the whole Indian market</h2>
+      <p>From large-cap equities to commodities, our quant infrastructure spans the instruments
+      that matter to Indian traders.</p>
+      <ul class="checklist">
+        <li><span class="ck"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span><span><b>Equities</b> — NSE &amp; BSE cash segment.</span></li>
+        <li><span class="ck"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span><span><b>Futures &amp; Options</b> — index and stock F&amp;O strategies.</span></li>
+        <li><span class="ck"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span><span><b>Commodities</b> — MCX coverage for diversification.</span></li>
+        <li><span class="ck"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span><span><b>Research &amp; consultation</b> — 1-on-1 strategy sessions.</span></li>
+      </ul>
+      <div class="hero-cta"><a class="btn btn-primary" href="/services/">Explore Services →</a></div>
+    </div>
+    <div class="split-media">
+      <div class="panel rv" id="cap-panel">
+        <div class="meter"><div class="top"><div><div class="t">Algo Strategy</div><div class="s">Custom equity &amp; F&amp;O systems</div></div><div class="p">85%</div></div><div class="bar"><i style="transform:scaleX(.85)"></i></div></div>
+        <div class="meter"><div class="top"><div><div class="t">Quant Research</div><div class="s">Data-driven market analysis</div></div><div class="p">80%</div></div><div class="bar"><i style="transform:scaleX(.80)"></i></div></div>
+        <div class="meter"><div class="top"><div><div class="t">Risk Management</div><div class="s">Automated risk controls</div></div><div class="p">70%</div></div><div class="bar"><i style="transform:scaleX(.70)"></i></div></div>
+        <div class="meter"><div class="top"><div><div class="t">Consultation</div><div class="s">1-on-1 strategy sessions</div></div><div class="p">95%</div></div><div class="bar"><i style="transform:scaleX(.95)"></i></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section id="cta">
+  <div class="cta rv">
+    <div class="eyebrow">Start today</div>
+    <h2>Build confidence with every single trade</h2>
+    <p>Partner with a quant-first team that puts transparency, compliance and Indian-market
+    expertise at the center of everything.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary btn-lg" href="/contact/">Get in Touch →</a>
+      <a class="btn btn-ghost btn-lg" href="/about/">About Us</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-top">
+    <div class="foot-brand">
+      <div class="fb"><b>J&amp;D<i> Vantage</i></b></div>
+      <p>Precision-engineered algorithmic trading technology built exclusively for Indian
+      markets — NSE, BSE &amp; MCX. Where mathematics meets market opportunity.</p>
+    </div>
+    <div class="foot-col">
+      <h4>Company</h4>
+      <a href="/about/">About Us</a>
+      <a href="/services/">Services</a>
+      <a href="/brochure/">Brochure</a>
+      <a href="/contact/">Contact</a>
+    </div>
+    <div class="foot-col">
+      <h4>Performance</h4>
+      <a href="/performance/">Backtest Record</a>
+      <a href="/report/">Trade Report</a>
+      <a href="/legal/#performance-disclosure">Performance Disclosure</a>
+      <a href="/legal/">Legal &amp; Compliance</a>
+    </div>
+    <div class="foot-col">
+      <h4>Reach Us</h4>
+      <a class="big" href="tel:+917575858430">+91 75758 58430</a>
+      <a class="big" href="mailto:jdvantagequant@gmail.com">jdvantagequant@gmail.com</a>
+      <a href="https://t.me/JDvantagecapital" target="_blank" rel="noopener noreferrer">@JDvantagecapital</a>
+      <span>India</span>
+    </div>
+  </div>
+  <div class="wrap foot-legal">
+    <b>Disclaimer.</b> Trading in securities and commodities involves substantial risk and may
+    not be suitable for all investors. Performance figures quoted on this site are
+    <b>backtested, simulated results</b> — not live trading performance — produced on historical
+    market data with slippage and the full statutory charge stack applied to every trade.
+    Simulated past performance is not indicative of future results and no specific return is
+    promised or guaranteed. <b>J&amp;D Vantage Quant provides technology and research services
+    only.</b> We are SEBI compliant but <b>not</b> a SEBI-registered investment adviser,
+    research analyst, portfolio manager or stockbroker. We do not manage client funds and we do
+    not provide PMS. All trading decisions are made by the client. Content is for informational
+    purposes only and does not constitute investment advice. Please read the
+    <a href="/legal/" style="color:#C6D0E4;text-decoration:underline">full disclaimers</a>.
+  </div>
+  <div class="foot-bottom">
+    <div class="wrap">
+      <span>&copy; 2024–2026 J&amp;D Vantage Quant. All rights reserved.</span>
+      <span>SEBI-aware &middot; India-first &middot; Compliance-led</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/summary.js?v=4"></script>
+<script src="/assets/site.js?v=4"></script>
+<script>
+const { $, $$, inr, pct, dd, n0, range, menu, reveal, whenVisible } = window.JD;
+const S = window.JD_SUM, T = S.modes.trio;
+const YRS = T.months / 12;
+
+/* ---------- spec strip ---------- */
+$('#s-period').textContent = range(T.window);
+$('#s-days').textContent = n0(T.days) + ' sessions';
+$('#s-trades').textContent = n0(T.trades) + ' trades';
+
+/* ---------- hero panel: the record at a glance ---------- */
+$('#hero-panel').innerHTML = [
+  ['Backtest window', range(T.window), ''],
+  ['Sessions tested', n0(T.days), ''],
+  ['Trades simulated', n0(T.trades), ''],
+  ['Net return · TRIO', pct(T.net_pct), 'pos'],
+  ['Max drawdown', dd(T.mdd), 'neg'],
+  ['Positive months', T.pos_months + ' / ' + T.months, ''],
+].map(([t, v, c]) => `<div class="prow"><div><div class="t">${t}</div></div>
+  <div class="m ${c}">${v}</div></div>`).join('');
+
+/* ---------- hero KPIs ---------- */
+$('#hero-kpis').innerHTML = [
+  ['Net Return', pct(T.net_pct), 'TRIO, after all costs · ' + T.months + ' months', 'up'],
+  ['CAGR', pct((Math.pow(1 + T.net_pct / 100, 1 / YRS) - 1) * 100, 1), 'compounded over ' + YRS.toFixed(1) + ' years', 'up'],
+  ['Max Drawdown', dd(T.mdd), 'peak to trough across ' + n0(T.days) + ' sessions', ''],
+  ['Positive Months', T.pos_months + ' / ' + T.months, (T.pos_months / T.months * 100).toFixed(0) + '% of calendar months closed green', ''],
+].map(([l, v, s, c]) =>
+  `<div class="kpi rv"><label>${l}</label><span class="v ${c}">${v}</span><small>${s}</small></div>`).join('');
+
+/* ---------- programme grid ---------- */
+$('#prog-grid').innerHTML = ['duo', 'trio', 'apex'].map(k => {
+  const m = S.modes[k];
+  return `<a class="prog rv" data-p="${k}" href="/performance/#mode=${k}">
+    <div class="head"><span class="nm">${m.label}</span><span class="cap">${m.cap_label}</span></div>
+    <div class="body">
+      <span class="big">${pct(m.net_pct)}</span>
+      <span class="big-l">net return over ${(m.months / 12).toFixed(1)} years, after every cost</span>
+      <dl>
+        <dt>Net P&amp;L</dt><dd>₹${inr(m.net)}</dd>
+        <dt>Max drawdown</dt><dd class="neg">${dd(m.mdd)}</dd>
+        <dt>Win rate</dt><dd>${m.win.toFixed(1)}%</dd>
+        <dt>Profit factor</dt><dd>${m.pf.toFixed(2)}</dd>
+        <dt>Risk per trade</dt><dd>${m.risk}% · ${m.leverage}×</dd>
+      </dl>
+    </div>
+    <div class="go"><span>${n0(m.trades)} trades</span>View performance →</div>
+  </a>`;
+}).join('');
+
+$('#p-mdd').textContent = dd(T.mdd);
+
+/* capability bars grow out of the baseline when the panel scrolls in, the same
+   way the year bars on the performance page do */
+const cap = $('#cap-panel');
+$$('.meter', cap).forEach(m => m.classList.add('pending'));
+whenVisible(cap, () => $$('.meter', cap).forEach(m => m.classList.remove('pending')));
+
+menu();
+reveal();
+</script>
 </body>
-
 </html>
